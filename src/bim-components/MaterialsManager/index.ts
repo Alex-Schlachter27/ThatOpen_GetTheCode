@@ -69,6 +69,7 @@ export class IfcMaterialsManager extends OBC.Component {
     // The properties manager is used to create a new single string property.
     // By default the data type is always an IfcText.
     // Check the quest so you know how to allow any data type!
+    // @ts-ignore
     const property = await propertiesManager.newSingleProperty(
       model,
       type,

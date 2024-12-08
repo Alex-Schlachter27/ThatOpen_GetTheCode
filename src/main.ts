@@ -255,7 +255,7 @@ const APIKEY = import.meta.env.VITE_APIKEY;
 const mapLibre = new maplibregl.Map({
   container: "map",
   style:
-    "https://api.maptiler.com/maps/basic-v2/style.json?key=gTFdxUxy3jwhiPssAZmY",
+    `https://api.maptiler.com/maps/basic-v2/style.json?key=?key=${APIKEY}`,
   center: coords,
   zoom: 18,
   pitch: 45,
